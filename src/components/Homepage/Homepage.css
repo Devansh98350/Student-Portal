@@ -1,0 +1,34 @@
+.resources-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #fff;
+}
+
+.resources-card {
+  overflow: hidden;
+  height: 169px;
+  width: 300px;
+  margin: 40px 0;
+  margin-inline-start: 80px;
+  background-color: #fefefe;
+  border-radius: 10px;
+  border: 1px solid rgb(222, 222, 222);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.resources-card img {
+  object-fit: cover;
+}
+
+.resources-card:hover {
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+  .resources-container {
+    display: block;
+  }
+  .resources-card {
+    width: 95%;
+    margin-left: 0px;
+  }
+}

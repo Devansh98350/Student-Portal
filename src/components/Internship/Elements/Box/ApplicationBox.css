@@ -1,0 +1,126 @@
+/* Application box container */
+.application-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Application box styles */
+.application-box {
+    width: calc(33.33% - 40px);
+    /* 33.33% width for each box, minus padding */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Hover effect */
+.application-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
+    /* Increased shadow on hover */
+}
+
+/* Image styles */
+.application-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4px;
+    /* Add space between image and content */
+    object-fit: cover;
+    /* Ensure images maintain aspect ratio and cover entire box */
+}
+
+/* Box heading styles */
+.box-heading {
+    font-weight:bold;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+/* Content styles */
+.content {
+    text-align: justify;
+    padding: 0 6px;
+    margin-top: 10px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+/* Apply button styles */
+.apply-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+     margin-right: 63px;
+     margin-top: 13px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    align-self: center;
+    /* Center align apply button */
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+.head {
+    text-align: center;
+    margin: 10px 0;
+    color: #007bff;
+    font-weight:bold;
+    font-size: 2em;
+}
+
+/* Media queries */
+@media screen and (max-width: 980px) {
+    .application-boxes .application-box {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+} 
+
+@media screen and (max-width: 680px) {
+    .application-boxes .application-box {
+        width: calc(100% - 20px);
+        margin-bottom: 20px;
+    }
+    .head {
+  font-size: 1.5em;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  .application-boxes .application-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+   .application-boxes {
+  padding: 15px;
+}
+.application-box img {
+  width: 110%;
+  height: auto;
+}
+
+
+}

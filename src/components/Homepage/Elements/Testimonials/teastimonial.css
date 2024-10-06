@@ -1,0 +1,22 @@
+/* Ensure that only one row of dots is rendered */
+.slick-dots {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 17.5px; /* Limit the height of the dot container */
+  overflow: hidden; /* Hide any additional rows of dots */
+}
+
+
+.slick-dots li {
+  margin: 0 4px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: lightgray;
+}
+
+.slick-dots li.slick-active button:before {
+  color: black;
+}

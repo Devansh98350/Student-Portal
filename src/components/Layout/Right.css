@@ -1,0 +1,81 @@
+h1 {
+  color: green;
+}
+
+/* styling sidebar */
+.rightsidehoverbar a {
+  background-color: green;
+  position: fixed;
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  align-items: center;
+  border-radius: 25px 0px 0px 25px;
+  width: 170px;
+  right: -130px;
+  transition: 0.1s;
+  text-align: right;
+  opacity: 1;
+  z-index:10;
+}
+
+/* Hover effect on sidebar */
+.rightsidehoverbar a:hover {
+  right: 0px;
+  opacity: 1;
+  /* background-color: #4caf50; */
+  background-color: orange;
+}
+
+/* float icons*/
+.rightsidehoverbar i {
+  float: left;
+  transition: float 0.01s ease;
+}
+
+.rightsidehoverbar i:hover {
+  float: right;
+}
+
+.rightside-icon {
+  width: 30px;
+  height: 30px;
+  float: left;
+  align-items: center;
+}
+/* defining position of each nav bar */
+.article1 {
+  top: 270px;
+  width: 210px;
+  height: 40px;
+}
+
+.Interview1 {
+  top: 330px;
+  width: 210px;
+  height: 40px;
+}
+
+.Scripter1 {
+  top: 390px;
+  width: 210px;
+  height: 40px;
+}
+
+.Suggested1 {
+  top: 450px;
+  width: 210px;
+  height: 40px;
+}
+
+.Practice1 {
+  top: 510px;
+  width: 210px;
+  height: 40px;
+}
+
+/* content margin */
+.hoverable-topic {
+  margin-left: 55px;
+}

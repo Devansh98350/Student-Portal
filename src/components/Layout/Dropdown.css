@@ -1,0 +1,9 @@
+.language-dropdown-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Adjust styling as needed */
+.language-dropdown-container p {
+  margin-right: 10px; /* Add some spacing between text and dropdown */
+}
