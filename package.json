@@ -33,6 +33,7 @@
     "react-share": "^5.0.3",
     "react-slick": "^0.30.2",
     "react-table": "^7.8.0",
+    "react-toastify": "^10.0.5",
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.11",
     "sweetalert2": "^11.12.2",

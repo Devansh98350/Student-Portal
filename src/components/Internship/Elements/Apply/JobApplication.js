@@ -3,7 +3,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import "./JobApplication.css";
 import Layout from "../../../Layout";
 import backgroundImg from "../../../../assests/Internship/bk.jpeg";
-import Papa from "papaparse";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Swal from "sweetalert2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -1748,13 +1749,17 @@ const JobApplication = () => {
     captcha: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
-
+  const [isSubmitting, setIsSubmitting] = useState(false);
   useEffect(() => {
     setFormData((prevFormData) => ({
       ...prevFormData,
       domain: domain,
     }));
   }, [domain]);
+
+  useEffect(() => {
+    console.log("Form submission state:", isSubmitted);
+  }, [isSubmitted]);
 
   useEffect(() => {
     const handleBackButton = (event) => {
@@ -1780,60 +1785,63 @@ const JobApplication = () => {
   const handleFileUpload = (e) => {
     const file = e.target.files[0];
     if (file) {
-      if (
-        [
-          "application/pdf",
-          "application/msword",
-          "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-          "application/vnd.oasis.opendocument.text",
-          "application/rtf",
-        ].includes(file.type)
-      ) {
-        const reader = new FileReader();
-        reader.onload = (event) => {
-          Papa.parse(event.target.result, {
-            complete: (results) => {
-              const data = results.data[0];
-              setFormData({
-                ...formData,
-                ...data,
-                resume: file,
-              });
-            },
-          });
-        };
-        reader.readAsText(file);
+      const validTypes = ["application/pdf"];
+      if (validTypes.includes(file.type)) {
+        setFormData({
+          ...formData,
+          resume: file,
+        });
+        toast.success("Resume uploaded successfully!");
       } else {
-        alert("Please upload a valid file type: .doc, .docx, .pdf, .odt, .rtf");
+        e.target.value = null;
+        toast.error("Please upload a valid pdf only.");
       }
     }
   };
+
   const handlephotoUpload = (e) => {
     const file = e.target.files[0];
     if (file) {
-      if (["image/jpeg", "image/png", "image/gif"].includes(file.type)) {
-        const reader = new FileReader();
-        reader.onload = (event) => {
-          setFormData({
-            ...formData,
-            image: file,
-            imagePreview: event.target.result,
-          });
-        };
-        reader.readAsDataURL(file);
+      const validTypes = ["image/jpeg", "image/png"];
+      if (validTypes.includes(file.type)) {
+        setFormData({
+          ...formData,
+          photo: file,
+        });
+        toast.success("Photo uploaded successfully!");
       } else {
-        alert("Please upload a valid image file: .jpg, .png, .gif");
+        e.target.value = null;
+        toast.error("Please upload a valid image file: .jpeg, .png");
       }
     }
   };
+
+  const getBase64 = (file) => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result.split(",")[1]); // Get base64 without data URL header
+      reader.onerror = (error) => reject(error);
+      reader.readAsDataURL(file);
+    });
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
+    // Show loading message
+    const loadingSwal = Swal.fire({
+      title: "Submitting your details",
+      text: "Please wait...",
+      allowOutsideClick: false,
+      didOpen: () => {
+        Swal.showLoading(); // Show loading spinner
+      },
+    });
 
     // Create a new FormData object to handle the form data
-    const formEle = document.querySelector(".application-form");
-    const formDataObj = new FormData(formEle);
+    const formDataObj = new FormData();
 
-    // Append fields that might not be directly captured in the form
+    // Append form fields
     formDataObj.append("domain", formData.domain);
     formDataObj.append("firstName", formData.firstName);
     formDataObj.append("email", formData.email);
@@ -1846,40 +1854,87 @@ const JobApplication = () => {
     formDataObj.append("branch", formData.branch);
     formDataObj.append("semester", formData.semester);
 
-    // The formDataObj automatically captures the 'resume' and 'photo' files from the form inputs
-    formDataObj.append("resume", formData.resume);
-    formDataObj.append("photo", formData.photo);
+    // Convert resume and photo files to base64 and append to formDataObj
+    if (formData.resume) {
+      const base64Resume = await getBase64(formData.resume);
+      formDataObj.append("resume", base64Resume);
+    }
+
+    if (formData.photo) {
+      const base64Photo = await getBase64(formData.photo);
+      formDataObj.append("photo", base64Photo);
+    }
 
     // Make a POST request to your Google Apps Script URL
-    fetch("https://script.google.com/macros/s/YOUR_GOOGLE_SCRIPT_ID/exec", {
-      method: "POST",
-      body: formDataObj, // Send the formData object directly
-    })
+    fetch(
+      "https://script.google.com/macros/s/AKfycbwG7MGZjtG8g0kVmccdwTqzZrRJagisLosy8UTqsdQPeh_3fPKFewzCqUX18Iidz8HZCw/exec",
+      {
+        method: "POST",
+        body: formDataObj,
+      }
+    )
       .then((response) => response.json())
       .then((data) => {
         console.log("Form submitted successfully:", data);
         setIsSubmitted(true);
-        handleSuccessClick(formData.email); // Handle success notification
+        setFormData({
+          domain: "",
+          firstName: "",
+          email: "",
+          mobile: "",
+          address: "",
+          gender: "",
+          linkedIn: "",
+          resume: null,
+          photo: null,
+          college: "",
+          degree: "",
+          branch: "",
+          semester: "",
+          captcha: "",
+        });
+        // Update the loading popup to show success message
+        loadingSwal.then(() => {
+          Swal.fire({
+            title: "Thank you!",
+            html: `
+    <p>Your application has been submitted successfully.</p>
+    <p>A copy of your application will be sent to <strong>${formData.email}</strong> for your records.</p>`,
+            icon: "success",
+            showCloseButton: false,
+            showCancelButton: false,
+            focusConfirm: false,
+            didRender: () => {
+              setTimeout(() => {
+                Swal.close();
+                navigate(`/internship-description/${formData.domain}`);
+              }, 1500);
+            },
+          });
+        });
       })
       .catch((error) => {
         console.error("Error submitting form:", error);
+        // Optionally, show an error message here
+      })
+      .finally(() => {
+        // Close the loading message after the process is complete
+        Swal.close();
       });
-  };
-
-  const handleSuccessClick = (email) => {
-    Swal.fire({
-      title: "Thank you!",
-      html: `<p>Your application has been submitted successfully.</p>
-            <p>A copy of your application will be sent to <strong>${email}</strong> for your records.</p>`,
-      icon: "success",
-    }).then(() => {
-      navigate(`/internship-application/${domain}`);
-    });
   };
 
   const job = jobDetails[domain];
   return (
     <Layout title={`${job.title} Application`}>
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        closeOnClick
+        pauseOnHover
+        draggable
+        pauseOnFocusLoss
+      />
       <div className="job-application">
         <div
           className="job-listing-header"
@@ -1985,7 +2040,7 @@ const JobApplication = () => {
               <input
                 type="file"
                 name="resume"
-                accept=".doc,.docx,.pdf,.odt,.rtf"
+                accept=".pdf"
                 onChange={handleFileUpload}
                 required
               />
@@ -1995,7 +2050,7 @@ const JobApplication = () => {
               <input
                 type="file"
                 name="photo"
-                accept="image/jpeg, image/png, image/gif"
+                accept="image/jpeg, image/png"
                 onChange={handlephotoUpload}
                 required
               />
@@ -2064,18 +2119,10 @@ const JobApplication = () => {
             </label>
           </div>
 
-          <button
-            onClick={() => handleSuccessClick(formData.email)}
-            type="button"
-          >
-            Submit Application
+          <button type="submit" disabled={isSubmitting}>
+            {isSubmitting ? "Submitting details..." : "Submit Application"}
           </button>
         </form>
-        {isSubmitted && (
-          <div className="success-message">
-            <p>Your application has been submitted successfully!</p>
-          </div>
-        )}
       </div>
     </Layout>
   );
