@@ -145,7 +145,7 @@ export default function Header() {
             Training Programs
           </Link>
           <Link
-            to="/login"
+            to=" "
             className="text-lg font-semibold leading-6 text-gray-900 mt-1"
           >
             Login

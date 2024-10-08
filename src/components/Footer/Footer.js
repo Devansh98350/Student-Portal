@@ -91,35 +91,35 @@ const Footer = () => {
             <div className="footer-col">
               <h2 style={{ textAlign: "center" }}>Main Website</h2>
               <p>
-                <Link to="https://www.iitacademy.in/#/Admission-form">
+                <Link to="https://www.iitacademy.in/Admission-form">
                   Apply Online
                 </Link>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/#/fees-structure">
+                <Link to="https://www.iitacademy.in/fees-structure">
                   Fee Structure
                 </Link>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/#/admission-process">
+                <Link to="https://www.iitacademy.in/admission-process">
                   Admission Process
                 </Link>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/#/why-us">
+                <Link to="https://www.iitacademy.in/why-us">
                   Why IIT Academy
                 </Link>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/#/our-policy">
+                <Link to="https://www.iitacademy.in/our-policy">
                   Privacy & Policy
                 </Link>
               </p>
               <p>
-                <Link to="#">Contact US</Link>
+                <Link to="#">Contact Us</Link>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/#/careers">Careers</Link>
+                <Link to="https://www.iitacademy.in/careers">Careers</Link>
               </p>
             </div>
             <div className="footer-col">
@@ -137,7 +137,7 @@ const Footer = () => {
                 <Link to="#">Training Programs</Link>
               </p>
               <p>
-                <Link to="#">Collaboration</Link>
+                <Link to="#">Resources</Link>
               </p>
               <p>
                 <Link to="#">Counseling</Link>
