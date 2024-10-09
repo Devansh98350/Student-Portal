@@ -89,14 +89,8 @@ html {
   border-radius: 10px;
 }
 
-/* Update the existing .grid selector */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr); /* Single column by default */
-  gap: 20px; /* Space between images */
-}
 
-/* For larger screens */
+
 @media (min-width: 840px) {
   .grid {
     grid-template-columns: repeat(2, 1fr); /* Two columns on small screens */
@@ -105,16 +99,17 @@ html {
 
 @media (min-width: 1024px) {
   .grid {
-    grid-template-columns: repeat(5, 0.5fr); /* Seven columns on larger screens */
+    grid-template-columns: repeat(5, 1fr); /* Five columns on larger screens */
   }
   .grid img {
-  width:50%;/* Set width to 15% */
+  width: 60%; /* Set width to 15% */
   height: auto; /* Maintain aspect ratio */
   object-fit: cover;
-  margin: 0 2.5%; /* Space on the left and right */
- }
+  margin: 0 0%; /* Space on the left and right */
+}
 
 }
+
 
 
 

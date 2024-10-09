@@ -10,7 +10,7 @@ const Cards = () => {
 
   return (
     <div
-      className="cards-container w-full min-h-screen flex flex-col items-center px-8 sm:px-32 gap-1 pt-2 md:pt-8"
+      className="cards-container w-full min-h-screen flex flex-col items-center px-4 sm:px-20 gap-1 pt-2 md:pt-8"
       style={{ color: "#333", paddingTop: "0px" }}
     >
       <div className="w-full pt-[6] sm:pt-0 border-b-[2px] border-gray-600 pb-1 sm:pb-3 flex justify-between items-center">

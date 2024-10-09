@@ -4,7 +4,6 @@ import b1 from "../../../../assests/home_page/b1.png";
 import b2 from "../../../../assests/home_page/b2.png";
 import b3 from "../../../../assests/home_page/b3.png";
 import b4 from "../../../../assests/home_page/b4.png";
-import b5 from "../../../../assests/home_page/b5.png";
 import b6 from "../../../../assests/home_page/b7.jpeg";
 import "./about.css";
 
@@ -45,33 +44,30 @@ const About = () => {
           </h1>
         </div>
       </div>
-      <div className="grid w-auto h-full p-2 overflow-hidden pt-10">
-        <div className="border-0 border-white flex justify-center rounded-lg w-full h-auto">
+
+      {/* Grid layout for images */}
+      <div className="grid grid-cols-2 sm:grid-cols-1 gap-2 w-full h-full p-0 pt-10">
+        <div className="col-span-2 sm:col-span-1 flex justify-center">
           <img
-            className="object-cover rounded-lg w-cover h-auto"
+            className="object-cover rounded-lg w-full h-auto"
             src={windowWidth < 640 ? b0 : b1} // Use b0 if width is less than 640px, else use b1
             alt="Responsive Image"
           />
         </div>
-        {[b2, b3, b4].map((src, index) => (
+        {[b2, b3, b4, b6].map((src, index) => (
           <div
             key={index}
-            className="border-0 border-white flex justify-center rounded-lg w-full h-auto"
+            className={`flex justify-center ${
+              windowWidth < 640 ? "w-[80%]" : "w-full"
+            }`}
           >
             <img
-              className="object-cover rounded-lg w-cover h-auto"
-              src={src} // Display b2 to b5 as usual
+              className="object-cover rounded-lg w-full h-auto"
+              src={src}
               alt={`Image ${index + 2}`}
             />
           </div>
         ))}
-        <div className="border-0 border-white flex justify-center rounded-lg w-full h-auto">
-          <img
-            className="object-cover rounded-lg w-cover h-auto"
-            src={windowWidth < 640 ? b5 : b6} // Use b0 if width is less than 640px, else use b1
-            alt="Responsive Image"
-          />
-        </div>
       </div>
     </div>
   );

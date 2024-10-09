@@ -125,7 +125,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-1 ">
         <div className="text-center p-4">
           <h2 className="text-3xl md:text-4xl font-bold font-spline text-[#2B383D]">
-            Hear From Our Interns
+            Testimonials from Our Interns
           </h2>
         </div>
         <Slider {...settings} className="testimonial-slider">
