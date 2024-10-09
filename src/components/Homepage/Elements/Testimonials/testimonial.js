@@ -121,11 +121,11 @@ const Testimonials = () => {
   };
 
   return (
-    <section id="testimonials" className="my-12 py-12 bg-white rounded ">
-      <div className="container mx-auto px-4 ">
+    <section id="testimonials" className="py-12 bg-white rounded ">
+      <div className="container mx-auto px-1 ">
         <div className="text-center p-4">
-          <h2 className="text-3xl md:text-4xl font-medium font-spline text-[#2B383D]">
-            Hear From Our Satisfied Users
+          <h2 className="text-3xl md:text-4xl font-bold font-spline text-[#2B383D]">
+            Hear From Our Interns
           </h2>
         </div>
         <Slider {...settings} className="testimonial-slider">

@@ -5,11 +5,6 @@ html {
   font-family: 'Arial', sans-serif;
 }
 
-/* .landing-page, .process-page, .about-page {
-  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-  color: #333;
-} */
-
 .text-structure .masker,
 .process-page .animate-text,
 .about-page .animate-text {
@@ -86,10 +81,49 @@ html {
   }
 }
 
-/* .about-page .animate-text, .about-page h1 {
-  color: black;
-} */
-
-.about-page .animate-card .border-white {
-  border-color: white;
+/* Make the images responsive */
+.grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
 }
+
+/* Update the existing .grid selector */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Single column by default */
+  gap: 20px; /* Space between images */
+}
+
+/* For larger screens */
+@media (min-width: 840px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on small screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(5, 0.5fr); /* Seven columns on larger screens */
+  }
+  .grid img {
+  width:50%;/* Set width to 15% */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  margin: 0 2.5%; /* Space on the left and right */
+ }
+
+}
+
+
+
+/* Adjust margins on first and last image to prevent overflow */
+.grid img:first-child {
+  margin-left: 0; /* Remove left margin for the first image */
+}
+
+.grid img:last-child {
+  margin-right: 0; /* Remove right margin for the last image */
+}
+

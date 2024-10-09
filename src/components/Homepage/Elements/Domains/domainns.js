@@ -10,11 +10,11 @@ const Cards = () => {
 
   return (
     <div
-      className="cards-container w-full min-h-screen flex flex-col items-center px-8 sm:px-32 gap-1 pt-12 md:pt-16"
-      style={{ color: "#333", paddingTop: "30px" }}
+      className="cards-container w-full min-h-screen flex flex-col items-center px-8 sm:px-32 gap-1 pt-2 md:pt-8"
+      style={{ color: "#333", paddingTop: "0px" }}
     >
-      <div className="w-full pt-6 sm:pt-12 border-b-[1px] border-gray-300 pb-0 sm:pb-3 flex justify-between items-center">
-        <h1 className='text-4xl sm:text-5xl font-["Founders_Grotesk_Condensed"] tracking-tight text-center'>
+      <div className="w-full pt-[6] sm:pt-0 border-b-[2px] border-gray-600 pb-1 sm:pb-3 flex justify-between items-center">
+        <h1 className='text-3xl sm:text-4xl font-["Founders_Grotesk_Condensed"] tracking-tight text-center'>
           Our Internship Programs
         </h1>
         <Link to="/internships">
@@ -27,7 +27,7 @@ const Cards = () => {
               backgroundColor: isHovered ? "orange" : "white",
               border: `1px solid ${isHovered ? "orange" : "black"}`,
               color: isHovered ? "white" : "black",
-              padding: "0.5rem 1rem",
+              padding: "0.25rem 1rem",
               borderRadius: "30px",
               transition: "all 0.3s ease",
             }}

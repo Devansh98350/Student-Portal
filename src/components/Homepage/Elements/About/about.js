@@ -1,28 +1,40 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import b0 from "../../../../assests/home_page/b0.png";
 import b1 from "../../../../assests/home_page/b1.png";
 import b2 from "../../../../assests/home_page/b2.png";
 import b3 from "../../../../assests/home_page/b3.png";
 import b4 from "../../../../assests/home_page/b4.png";
 import b5 from "../../../../assests/home_page/b5.png";
+import b6 from "../../../../assests/home_page/b7.jpeg";
 import "./about.css";
 
 const About = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
-    <div className="about-page w-full min-h-screen p-8 sm:p-16 lg:p-20 rounded-tl-3xl rounded-tr-2xl text-black">
-      <h1 className="font-bold text-3xl sm:text-xl lg:text-2xl text-black">
+    <div className="about-page w-full min-h-screen p-8 sm:p-16 lg:p-15 rounded-tl-3xl rounded-tr-2xl text-black">
+      <h1 className="font-bold text-2xl sm:text-xs lg:text-2xl text-black">
         OFFICIAL RECOGNITION SECURED
       </h1>
-      <div className="w-full flex flex-col lg:flex-row gap-5 border-t-[1px] border-[#738146] mt-10 lg:mt-20">
+      <div className="w-full flex flex-col lg:flex-row gap-5 border-t-[2px] border-[#738146] mt-1 lg:mt-2">
         <div className="w-full lg:w-1/2 h-auto lg:h-[40vh] bg-gradient-to-r from-teal-400 to-blue-500 rounded-3xl p-6 sm:p-10 lg:p-20 animate-card flex items-center justify-center">
           <div className="text-center">
-            <p className="font-normal text-lg sm:text-xl lg:text-2xl text-black mt-2">
+            <p className="font-normal sm:text-justify text-xl sm:text-xl lg:text-2xl text-black mt-0">
               Garnering trust and validation from leading educational,
               governmental, and professional bodies.
             </p>
           </div>
         </div>
         <div className="w-full lg:w-1/2 h-auto lg:h-[40vh] bg-gradient-to-r from-teal-400 to-blue-500 rounded-3xl p-6 sm:p-10 lg:p-20 animate-card flex items-center justify-center">
-          <h1 className="font-normal text-lg sm:text-xl lg:text-xl mt-5 lg:mt-5 animate-text text-center text-black">
+          <h1 className="font-normal text-lg sm:text-xl lg:text-xl mt-2 lg:mt-5 animate-text text-justify text-black">
             Our programs boast an array of prestigious certifications, including
             MCA and MSME certifications, attesting to our commitment to quality
             and excellence in the tech sector. We are also ISO Certified,
@@ -33,19 +45,33 @@ const About = () => {
           </h1>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 w-auto h-full rounded-0 p-2 overflow-hidden pt-10">
-        {[b1, b2, b3, b4, b5].map((src, index) => (
+      <div className="grid w-auto h-full p-2 overflow-hidden pt-10">
+        <div className="border-0 border-white flex justify-center rounded-lg w-full h-auto">
+          <img
+            className="object-cover rounded-lg w-cover h-auto"
+            src={windowWidth < 640 ? b0 : b1} // Use b0 if width is less than 640px, else use b1
+            alt="Responsive Image"
+          />
+        </div>
+        {[b2, b3, b4].map((src, index) => (
           <div
             key={index}
-            className="border-0 border-white flex justify-center rounded-lg w-[70%] mx-auto h-auto lg:w-full lg:h-auto"
+            className="border-0 border-white flex justify-center rounded-lg w-full h-auto"
           >
             <img
-              className="object-cover rounded-lg w-full h-auto"
-              src={src}
-              alt={`Image ${index + 1}`}
+              className="object-cover rounded-lg w-cover h-auto"
+              src={src} // Display b2 to b5 as usual
+              alt={`Image ${index + 2}`}
             />
           </div>
         ))}
+        <div className="border-0 border-white flex justify-center rounded-lg w-full h-auto">
+          <img
+            className="object-cover rounded-lg w-cover h-auto"
+            src={windowWidth < 640 ? b5 : b6} // Use b0 if width is less than 640px, else use b1
+            alt="Responsive Image"
+          />
+        </div>
       </div>
     </div>
   );
