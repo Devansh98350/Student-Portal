@@ -3,32 +3,102 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="canonical" href="https://www.internship.iitacademy.in/" />
+    <meta name="author" content="Devanshu Kumar" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <meta name="title" content="Internship - IIT Academy" />
+    <meta
+      name="keywords"
+      content="IIT Academy, Internship, Training Program, Internship - IIT Academy, Technical internships 2024 for college students, Internship programs in IT and tech, Best tech internships for freshers, IT internships for engineering students, Skill-building internships for students, Best internships for tech students 2024, IT and tech internships for college students, Internship opportunities for engineering students, "
+    />
+
+    <!--OpenGraph Metadata-->
+    <meta name="title" property="og:title" content="Internship - IIT Academy" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      property="og:description"
+      content="IIT Academy is dedicated to empowering college students and recent graduates by connecting them with exceptional internship opportunities across various industries. Our expert guidance and strong industry partnerships ensure you gain valuable hands-on experience to advance your career."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <meta
+      name="image"
+      property="og:image"
+      content="https://sites.google.com/view/loogof/home"
+    />
+    <meta property="og:url" content="https://www.internship.iitacademy.in/" />
+    <meta property="og:site_name" content="IIT Academy" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <!-- Website Name -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Internship - IIT Academy",
+        "url": "https://www.internship.iitacademy.in/"
+      }
+    </script>
+    <!-- Local Business -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollegeOrUniversity",
+        "name": "Internship - IIT Academy",
+        "url": "https://www.internship.iitacademy.in/",
+        "logo": "https://sites.google.com/view/loogof/home",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9205704041",
+          "contactType": "customer service",
+          "contactOption": "TollFree",
+          "areaServed": "IN",
+          "availableLanguage": ["en", "Hindi"]
+        },
+        "sameAs": [
+          "https://www.facebook.com/profile.php?id=100095357977617",
+          "https://www.instagram.com/iit_academy2.0/",
+          "https://www.youtube.com/@IIT_Academy",
+          "https://www.linkedin.com/company/iit-aacademy/",
+          "https://www.iitacademy.in/"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Fees Structure",
+          "url": "https://www.internship.iitacademy.in/internships"
+        }
+      ]
+    </script>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <title>Internship - IIT Academy</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8HJWR0FYCX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-8HJWR0FYCX");
+    </script>
+    <!-- Chatbot -->
+    <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/8df6e066-237b-4b45-9e0f-c04980dbe761/webchat/v2/config.js"></script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +109,34 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      // Prevent right-clicking on the entire document
+      document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+      });
+      document.addEventListener("copy", function (event) {
+        event.preventDefault();
+      });
+      // Disable text selection
+      document.addEventListener("selectstart", function (event) {
+        event.preventDefault();
+      });
+      document.addEventListener("contextmenu", function (e) {
+        if (e.target.nodeName === "IMG") {
+          e.preventDefault();
+        }
+      });
+      document.addEventListener("keydown", function (event) {
+        if (event.ctrlKey && event.key === "u") {
+          event.preventDefault();
+        }
+      });
+      document.addEventListener("keydown", function (event) {
+        if (event.ctrlKey && event.shiftKey && event.key === "i") {
+          event.preventDefault();
+          // Add your custom logic here if needed
+        }
+      });
+    </script>
   </body>
 </html>
