@@ -599,7 +599,7 @@ const jobDetails = {
             <h2>Java Internship</h2>
             <p>Remote Job</p>
 
-            <Link to={`/internship-application/java-devlopment-intern`}>
+            <Link to={`/internship-application/java-developer-intern`}>
               <button>I'm interested</button>
             </Link>
             <p>Share job via:</p>

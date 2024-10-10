@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+    <url>
+        <loc>https://www.internship.iitacademy.in</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internships</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/frontend-devlopment-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/full-stack-devlopment-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/python-devlopment-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/java-developer-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/machine-learning-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/android-developer-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/ui-ux-design-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/artificial-intelligence-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/data-science-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/c++programming-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/data-analytics-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/cyber-security-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/cloud-computing-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/transfer-learning-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/digital-marketing-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/graphic-design-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.internship.iitacademy.in/internship-description/human-resources-intern</loc>
+        <lastmod>2024-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+</urlset>
