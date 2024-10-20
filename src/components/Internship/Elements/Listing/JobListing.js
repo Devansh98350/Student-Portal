@@ -16,6 +16,8 @@ import { faLink, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const jobDetails = {
   "frontend-devlopment-intern": {
     title: "Frontend Development Internship",
+    keywords:
+      "Frontend web development internships for students, HTML, CSS, JavaScript internships, Learn React and Angular through internships, Web development internships, Frontend developer internships for college students",
     description: (
       <div className="job-listing-container">
         <div
@@ -201,6 +203,8 @@ const jobDetails = {
 
   "full-stack-devlopment-intern": {
     title: "Full-stack Development Internship",
+    keywords:
+      "Full stack developer internships for college students, Backend and frontend development internships, Full stack development internships, Learn MERN stack internships, Web development internships for freshers",
     description: (
       <div className="job-listing-container">
         <div
@@ -394,6 +398,8 @@ const jobDetails = {
 
   "python-devlopment-intern": {
     title: "Python Internship",
+    keywords:
+      "Python development internships for students, Python programming internships, Learn Python development internships, Python coding internships for freshers, Software development with Python internships",
     description: (
       <div className="job-listing-container">
         <div
@@ -586,6 +592,8 @@ const jobDetails = {
 
   "java-developer-intern": {
     title: "Java Internship",
+    keyword:
+      "Java development internships for students, Learn Java programming internships, Software development internships in Java, Java coding internships for engineering students, Java internships for college student",
     description: (
       <div className="job-listing-container">
         <div
@@ -768,6 +776,8 @@ const jobDetails = {
 
   "machine-learning-intern": {
     title: "Machine Learning Internship",
+    keyword:
+      "Machine learning internships for students, Learn machine learning internships, Data science and machine learning internships, Applied machine learning internships for freshers, AI and ML internships",
     description: (
       <div className="job-listing-container">
         <div
@@ -946,6 +956,8 @@ const jobDetails = {
 
   "android-developer-intern": {
     title: "Android Development Internship",
+    keyword:
+      "Android development internships for students, Learn Android app development internships, Android programming internships for college students, Kotlin development internships for students, Mobile app development internships",
     description: (
       <div className="job-listing-container">
         <div
@@ -1110,6 +1122,8 @@ const jobDetails = {
 
   "ui-ux-design-intern": {
     title: "UI UX Design Internship",
+    keyword:
+      "UI/UX design internships for students, Learn UI/UX design internships, User experience design internships, Figma and Sketch internships for freshers, UX design internships for college students",
     description: (
       <div className="job-listing-container">
         <div
@@ -1297,6 +1311,8 @@ const jobDetails = {
 
   "artificial-intelligence-intern": {
     title: "Artificial Intelligence Internship",
+    keyword:
+      "Artificial Intelligence internships for students, Learn AI and machine learning internships, AI programming internships for freshers, AI research internships for college students, AI development internships",
     description: (
       <div className="job-listing-container">
         <div
@@ -1488,6 +1504,8 @@ const jobDetails = {
 
   "data-science-intern": {
     title: "Data Science Internship",
+    keyword:
+      "Data science and machine learning internships, Data visualization internships for freshers, Learn data science internships, Data science internships for students, Data analysis internships",
     description: (
       <div className="job-listing-container">
         <div
@@ -1673,6 +1691,8 @@ const jobDetails = {
 
   "c++programming-intern": {
     title: "C++ Programming Internship",
+    keyword:
+      "C++ programming internships for students, Learn C++ development internships, Software development internships in C++, C++ coding internships for freshers, C++ programming internships for college students",
     description: (
       <div className="job-listing-container">
         <div
@@ -1861,6 +1881,8 @@ const jobDetails = {
 
   "data-analytics-intern": {
     title: "Data Analytics Internship",
+    keyword:
+      "Data analytics internships for college students, Data visualization internships for freshers, Python data analytics internships, Data analytics internships for students, Learn data analysis internships",
     description: (
       <div className="job-listing-container">
         <div
@@ -2062,6 +2084,8 @@ const jobDetails = {
 
   "cyber-security-intern": {
     title: "Cyber Security Internship",
+    keyword:
+      "Cyber security internships for students, Learn cyber security internships, Ethical hacking internships for freshers, Cyber security internships for college students, Information security internships",
     description: (
       <div className="job-listing-container">
         <div
@@ -2248,6 +2272,8 @@ const jobDetails = {
 
   "cloud-computing-intern": {
     title: "Cloud Computing Internship",
+    keyword:
+      "Cloud computing internships for students, AWS and Azure cloud internships, Learn cloud computing for freshers, Cloud security internships for college students, Cloud infrastructure internships",
     description: (
       <div className="job-listing-container">
         <div
@@ -2436,6 +2462,8 @@ const jobDetails = {
 
   "transfer-learning-intern": {
     title: "Transfer Learning Internship",
+    keyword:
+      "Research internships in transfer learning, Machine learning and transfer learning internships, Learn transfer learning in AI, Transfer learning internships for students, AI transfer learning internships",
     description: (
       <div className="job-listing-container">
         <div
@@ -2617,6 +2645,8 @@ const jobDetails = {
   },
   "digital-marketing-intern": {
     title: "Digital Marketing Internship",
+    keyword:
+      "Digital marketing internships for students, SEO and social media internships, Digital marketing for college students, Content marketing internships for freshers, Learn digital marketing",
     description: (
       <div className="job-listing-container">
         <div
@@ -2795,6 +2825,8 @@ const jobDetails = {
 
   "graphic-design-intern": {
     title: "Graphic Design Internship",
+    keyword:
+      "Graphic design internships for students, Learn Photoshop and Illustrator internships, Graphic design internships for freshers, Visual design internships for college students, Creative design internships",
     description: (
       <div className="job-listing-container">
         <div
@@ -2991,6 +3023,8 @@ const jobDetails = {
 
   "human-resources-intern": {
     title: "Human Resources Internship",
+    keyword:
+      "HR internships for college students, People management internships for college students, HR management internships for freshers, HR internships for students, Learn recruitment internships",
     description: (
       <div className="job-listing-container">
         <div
@@ -3176,7 +3210,11 @@ const JobListing = () => {
   }
 
   return (
-    <Layout title={`${job.title} - IIT Academy`}>
+    <Layout
+      title={`${job.title} - IIT Academy`}
+      keyword={job.keywords}
+      // description={job.description}
+    >
       <div className="job-listing">
         {/* <h1>{job.title}</h1> */}
         <div>{job.description}</div>
