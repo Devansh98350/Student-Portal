@@ -2643,6 +2643,7 @@ const jobDetails = {
       </div>
     ),
   },
+
   "digital-marketing-intern": {
     title: "Digital Marketing Internship",
     keyword:
@@ -3195,7 +3196,614 @@ const jobDetails = {
       </div>
     ),
   },
-  // Add other domains as needed
+
+  "web-content-writer-intern": {
+    title: "Web Content Writer Internship",
+    keyword: "",
+    description: (
+      <div className="job-listing-container">
+        <div
+          className="job-listing-header1"
+          style={{ backgroundImage: `url(${backgroundImg})` }}
+        >
+          <div className="job-header-content">
+            <h1 style={{ color: "orange", fontWeight: "bold" }}>
+              IIT Academy | Full time
+            </h1>
+            <h2>Web Content Writer Internship</h2>
+            <p>Remote Job</p>
+
+            <Link to={`/internship-application/web-content-writer-intern`}>
+              <button>I'm interested</button>
+            </Link>
+            <p>Share job via:</p>
+            <div className="share-icons">
+              <a
+                href="https://www.facebook.com/sharer/sharer.php?u=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://twitter.com/intent/tweet?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faXTwitter}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://wa.me/?text=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLink}
+                  rotation={45}
+                  className="linkedin-icon23"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="job-info-description">
+          <div className="job-description">
+            <h3>
+              <strong>Job Description</strong>
+            </h3>
+            <p>This is a remote position.</p>
+            <h4 style={{ marginTop: "25px" }}>
+              <strong>Job Title:</strong> Web Content Writer - internship
+            </h4>
+            <h3 className="dur">Position Overview:</h3>
+            <p>
+              We are seeking enthusiastic and dedicated individuals to join our
+              team as Content Writer Interns. As an intern, you will have the
+              opportunity to collaborate with experienced educators and
+              contribute to the development of high-quality educational content
+              for our website.
+            </p>
+            <h4 className="dur">Responsibilities:</h4>
+            <ul>
+              <li>
+                {" "}
+                Research and gather relevant information on various topics and
+                entrance exam patterns.
+              </li>
+              <li>
+                {" "}
+                Create engaging and informative content for online platforms,
+                including blog posts, articles, and social media posts.
+              </li>
+              <li>
+                {" "}
+                Collaborate with the curriculum development team to ensure
+                alignment with educational objectives and standards.
+              </li>
+              <li>
+                {" "}
+                Proofread and edit content to ensure accuracy, clarity, and
+                adherence to guidelines.
+              </li>
+            </ul>
+            <h3 className="dur">Qualifications:</h3>
+            <ul>
+              <li>
+                Currently pursuing a degree in engineering, science, education,
+                or related field.
+              </li>
+              <li>
+                Excellent writing skills with a strong command of grammar,
+                punctuation, and style.
+              </li>
+              <li>
+                Ability to conduct thorough research and synthesize complex
+                information into clear and concise content.
+              </li>
+              <li>
+                Attention to detail and commitment to producing high-quality
+                work.
+              </li>
+              <li>
+                Basic understanding of educational concepts and examination
+                patterns preferred.
+              </li>
+            </ul>
+
+            <h4 className="dur">Duration:</h4>
+            <p>
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success. .
+            </p>
+          </div>
+          <div className="job-info">
+            <h3>
+              <strong>Job Information</strong>
+            </h3>
+            <ul>
+              <li>
+                <strong>Industry:</strong> IT Services
+              </li>
+              <li>
+                <strong>Eligibility:</strong> College Students or Freshers
+              </li>
+              <li>Remote Job</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    ),
+  },
+
+  "social-media-coordinator-intern": {
+    title: "Social Media Co-ordinator Internship",
+    keyword: "",
+    description: (
+      <div className="job-listing-container">
+        <div
+          className="job-listing-header1"
+          style={{ backgroundImage: `url(${backgroundImg})` }}
+        >
+          <div className="job-header-content">
+            <h1 style={{ color: "orange", fontWeight: "bold" }}>
+              IIT Academy | Full time
+            </h1>
+            <h2>Social Media Co-ordinator Internship</h2>
+            <p>Remote Job</p>
+
+            <Link
+              to={`/internship-application/social-media-coordinator-intern`}
+            >
+              <button>I'm interested</button>
+            </Link>
+            <p>Share job via:</p>
+            <div className="share-icons">
+              <a
+                href="https://www.facebook.com/sharer/sharer.php?u=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://twitter.com/intent/tweet?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faXTwitter}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://wa.me/?text=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLink}
+                  rotation={45}
+                  className="linkedin-icon23"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="job-info-description">
+          <div className="job-description">
+            <h3>
+              <strong>Job Description</strong>
+            </h3>
+            <p>This is a remote position.</p>
+            <h4 style={{ marginTop: "25px" }}>
+              <strong>Job Title:</strong>Social Media Co-ordinator - internship
+            </h4>
+            <h3 className="dur">Position Overview:</h3>
+            <p>
+              As a Social Media Coordinator Intern, you will be an integral part
+              of our marketing team, helping to shape our brand's online
+              presence. This role offers a unique opportunity to gain hands-on
+              experience in social media management, content creation, and
+              digital marketing strategies. If you’re a creative, tech-savvy
+              individual with a passion for social media and storytelling, this
+              internship will provide the perfect platform to kickstart your
+              career in the dynamic field of digital marketing.
+            </p>
+            <h4 className="dur">Responsibilities:</h4>
+            <ul>
+              <li>
+                Develop, implement, and manage our social media strategy to
+                align with business goals.
+              </li>
+              <li>
+                Create, curate, and schedule engaging content across various
+                social media platforms (e.g., Facebook, Instagram, LinkedIn,
+                Twitter).
+              </li>
+              <li>
+                Monitor and respond to social media interactions, comments, and
+                messages in a timely manner.
+              </li>
+              <li>
+                Collaborate with the marketing and design teams to create
+                visually appealing and brand-aligned graphics and videos.
+              </li>
+              <li>
+                Analyze social media metrics and generate reports to track
+                performance, trends, and user engagement.
+              </li>
+              <li>
+                Stay updated with the latest social media trends, tools, and
+                best practices.
+              </li>
+              <li>
+                Assist in planning and executing social media campaigns to drive
+                brand awareness and audience engagement.
+              </li>
+              <li>
+                Engage with the online community to foster relationships, build
+                the brand’s reputation, and enhance customer loyalty.
+              </li>
+              <li>
+                Conduct competitive analysis to identify areas for improvement
+                and growth.
+              </li>
+              <li>
+                Work closely with the team to brainstorm and develop innovative
+                ideas for content and campaigns.
+              </li>
+            </ul>
+
+            <h3 className="dur">Qualifications:</h3>
+            <ul>
+              <li>
+                Pursuing a Bachelor's degree in Marketing, Communications, or a
+                related field.
+              </li>
+              <li>
+                Strong understanding of major social media platforms (Facebook,
+                Instagram, Twitter, LinkedIn, etc.) and their respective best
+                practices.
+              </li>
+              <li>
+                Excellent written and verbal communication skills, with a
+                creative flair for content creation.
+              </li>
+              <li>
+                Basic graphic design skills and experience with tools like
+                Canva, Adobe Photoshop, or similar.
+              </li>
+              <li>
+                Ability to analyze data and draw actionable insights to optimize
+                social media strategies.
+              </li>
+              <li>
+                Experience with social media management tools (e.g., Hootsuite,
+                Buffer) is a plus.
+              </li>
+              <li>
+                Highly organized with the ability to manage multiple projects
+                simultaneously.
+              </li>
+              <li>
+                Strong attention to detail and a proactive, can-do attitude.
+              </li>
+              <li>
+                Passionate about staying updated with social media trends and
+                digital marketing practices.
+              </li>
+              <li>
+                Ability to work both independently and as part of a
+                collaborative team.
+              </li>
+            </ul>
+
+            <h4 className="dur">Duration:</h4>
+            <p>
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success. .
+            </p>
+          </div>
+          <div className="job-info">
+            <h3>
+              <strong>Job Information</strong>
+            </h3>
+            <ul>
+              <li>
+                <strong>Industry:</strong> IT Services
+              </li>
+              <li>
+                <strong>Eligibility:</strong> College Students or Freshers
+              </li>
+              <li>Remote Job</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    ),
+  },
+
+  "seo-analyst-intern": {
+    title: "SEO Analyst Internship",
+    keyword:
+      "HR internships for college students, People management internships for college students, HR management internships for freshers, HR internships for students, Learn recruitment internships",
+    description: (
+      <div className="job-listing-container">
+        <div
+          className="job-listing-header1"
+          style={{ backgroundImage: `url(${backgroundImg})` }}
+        >
+          <div className="job-header-content">
+            <h1 style={{ color: "orange", fontWeight: "bold" }}>
+              IIT Academy | Full time
+            </h1>
+            <h2>SEO Analyst Internship</h2>
+            <p>Remote Job</p>
+
+            <Link to={`/internship-application/seo-analyst-intern`}>
+              <button>I'm interested</button>
+            </Link>
+            <p>Share job via:</p>
+            <div className="share-icons">
+              <a
+                href="https://www.facebook.com/sharer/sharer.php?u=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://twitter.com/intent/tweet?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faXTwitter}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://wa.me/?text=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLink}
+                  rotation={45}
+                  className="linkedin-icon23"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="job-info-description">
+          <div className="job-description">
+            <h3>
+              <strong>Job Description</strong>
+            </h3>
+            <p>This is a remote position.</p>
+            <h4 style={{ marginTop: "25px" }}>
+              <strong>Job Title:</strong> SEO Analyst - Internship
+            </h4>
+            <h3 className="dur">Position Overview:</h3>
+            <p>
+              As a Search Engine Optimization (SEO) Analyst Intern, you will be
+              a key part of our dynamic marketing team, gaining hands-on
+              experience in the fascinating world of SEO. This internship
+              provides an excellent opportunity to learn and grow in a
+              fast-paced environment while contributing to real SEO strategies
+              and campaigns. If you’re an analytical and detail-oriented
+              individual with a passion for SEO, this is the perfect opportunity
+              to kickstart your career.
+            </p>
+            <h4 className="dur">Responsibilities:</h4>
+            <ul>
+              <li>
+                Conduct keyword research to identify opportunities for website
+                optimization.
+              </li>
+              <li>
+                Manage and optimize website content to improve organic search
+                rankings and drive traffic.
+              </li>
+              <li>
+                Perform on-page and off-page SEO activities, including link
+                building and content optimization.
+              </li>
+              <li>
+                Analyze website performance metrics using tools like Google
+                Analytics and provide actionable insights.
+              </li>
+              <li>
+                Stay up-to-date with the latest SEO trends and best practices to
+                ensure our strategies are current and effective.
+              </li>
+            </ul>
+
+            <h3 className="dur">Qualifications:</h3>
+            <ul>
+              <li>
+                Currently enrolled in a bachelor's or master's degree program.
+              </li>
+              <li>
+                Strong passion for SEO and a desire to learn and grow in the
+                field.
+              </li>
+              <li>
+                Familiarity with SEO tools and techniques (Google Analytics,
+                Google Search Console, etc.).
+              </li>
+              <li>
+                Basic understanding of HTML and web development is a plus.
+              </li>
+              <li>Self-motivated, analytical, and a team player.</li>
+            </ul>
+
+            <h4 className="dur">Duration:</h4>
+            <p>
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success. .
+            </p>
+          </div>
+          <div className="job-info">
+            <h3>
+              <strong>Job Information</strong>
+            </h3>
+            <ul>
+              <li>
+                <strong>Industry:</strong> IT Services
+              </li>
+              <li>
+                <strong>Eligibility:</strong> College Students or Freshers
+              </li>
+              <li>Remote Job</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    ),
+  },
 };
 
 const JobListing = () => {
