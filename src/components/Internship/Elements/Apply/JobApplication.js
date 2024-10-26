@@ -625,6 +625,216 @@ const jobDetails = {
     ),
   },
 
+  "react-native-developer-intern": {
+    title: "React Native Development Internship",
+    description: (
+      <div className="job-listing-container">
+        <div
+          className="job-listing-header1"
+          style={{ backgroundImage: `url(${backgroundImg})` }}
+        >
+          <div className="job-header-content">
+            <h1 style={{ color: "orange", fontWeight: "bold" }}>
+              IIT Academy | Full time
+            </h1>
+            <h2>React Native Development Internship</h2>
+            <p>Remote Job</p>
+
+            <button
+              style={{
+                backgroundColor: "transparent",
+                color: "transparent",
+                cursor: "default",
+                pointerEvents: "none",
+              }}
+            >
+              I'm interested
+            </button>
+            <p>Share job via:</p>
+            <div className="share-icons">
+              <a
+                href="https://www.facebook.com/sharer/sharer.php?u=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://twitter.com/intent/tweet?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faXTwitter}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://wa.me/?text=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLink}
+                  rotation={45}
+                  className="linkedin-icon23"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+  },
+
+  "backend-development-intern": {
+    title: "Backend Development Internship",
+    description: (
+      <div className="job-listing-container">
+        <div
+          className="job-listing-header1"
+          style={{ backgroundImage: `url(${backgroundImg})` }}
+        >
+          <div className="job-header-content">
+            <h1 style={{ color: "orange", fontWeight: "bold" }}>
+              IIT Academy | Full time
+            </h1>
+            <h2>Backend Development Internship</h2>
+            <p>Remote Job</p>
+
+            <button
+              style={{
+                backgroundColor: "transparent",
+                color: "transparent",
+                cursor: "default",
+                pointerEvents: "none",
+              }}
+            >
+              I'm interested
+            </button>
+            <p>Share job via:</p>
+            <div className="share-icons">
+              <a
+                href="https://www.facebook.com/sharer/sharer.php?u=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://twitter.com/intent/tweet?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faXTwitter}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://wa.me/?text=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLink}
+                  rotation={45}
+                  className="linkedin-icon23"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+  },
+
   "ui-ux-design-intern": {
     title: "UI UX Design Internship",
     description: (

@@ -9,6 +9,8 @@ import javaImg from "../../assests/Internship/java.jpg";
 import mlImg from "../../assests/Internship/ML.jpeg";
 import androidImg from "../../assests/Internship/andrid.gif";
 import uiuxImg from "../../assests/Internship/uxui.jpg";
+import reactImg from "../../assests/Internship/react-native.png";
+import backImg from "../../assests/Internship/backend.png";
 import aiImg from "../../assests/Internship/AI.jpg";
 import dsImg from "../../assests/Internship/DS.jpg";
 import cppImg from "../../assests/Internship/cpp.jpeg";
@@ -19,6 +21,9 @@ import transferImg from "../../assests/Internship/t.jpeg";
 import marketingImg from "../../assests/Internship/marketing.jpeg";
 import designImg from "../../assests/Internship/design.jpeg";
 import hrImg from "../../assests/Internship/HR.jpeg";
+import webImg from "../../assests/Internship/content.jpeg";
+import socialImg from "../../assests/Internship/social-media.jpeg";
+import seoImg from "../../assests/Internship/seo-analyst.jpeg";
 
 const Internship = () => {
   useEffect(() => {
@@ -73,11 +78,26 @@ const Internship = () => {
 
         <div className="application-boxes">
           <ApplicationBox
+            imageSrc={reactImg}
+            heading="React Native Development"
+            content="Embark on a transformative journey into React-Native development from the comfort of your own home, unlocking a world of career opportunities with our certification program. Join our immersive internship, designed to guide you through every aspect of mobile app development, from core principles to advanced, industry-relevant techniques. Build a strong skill set through hands-on experience and real-world projects in a collaborative and supportive environment."
+            domain="/internship-description/react-native-developer-intern"
+          />
+          <ApplicationBox
+            imageSrc={backImg}
+            heading="Backend Development"
+            content="Dive into the dynamic world of backend development from anywhere with our comprehensive certification program, opening doors to exciting career opportunities. Enroll in our internship to master backend development, from foundational concepts to sophisticated, real-world practices. Strengthen your expertise through practical training, hands-on applications, and collaboration in a supportive learning environment tailored to prepare you for real-world challenges."
+            domain="/internship-description/backend-development-intern"
+          />
+          <ApplicationBox
             imageSrc={uiuxImg}
             heading="UI/UX Design"
             content="Embark on a transformative journey into UI/UX design from the comfort of your own home and open doors to exciting career opportunities with our certification program. Join our comprehensive internship, where you'll explore every aspect of UI/UX design, from fundamental principles to advanced techniques. Develop a solid skill set through practical, hands-on training and real-world applications in a collaborative and supportive environment."
             domain="/internship-description/ui-ux-design-intern"
           />
+        </div>
+
+        <div className="application-boxes">
           <ApplicationBox
             imageSrc={aiImg}
             heading="Artificial Intelligence"
@@ -90,15 +110,15 @@ const Internship = () => {
             content="Become a Data Science expert from the comfort of your own home and unlock promising career prospects with our certification program. Enroll in our comprehensive internship program, where you'll immerse yourself in every aspect of Data Science, from foundational concepts to practical applications. Develop a strong foundation for your career through hands-on training and real-world projects in a supportive, collaborative environment."
             domain="/internship-description/data-science-intern"
           />
-        </div>
-
-        <div className="application-boxes">
           <ApplicationBox
             imageSrc={cppImg}
             heading="C++ Programming"
             content="Become a C++ programming expert from the comfort of your own home and unlock promising career opportunities with our certification program. Enroll in our comprehensive internship, where you'll delve into every aspect of C++ programming, from basic concepts to advanced techniques. Develop a strong foundation for your career through hands-on training and real-world projects."
             domain="/internship-description/c++programming-intern"
           />
+        </div>
+
+        <div className="application-boxes">
           <ApplicationBox
             imageSrc={daImg}
             heading="Data Analytics"
@@ -111,15 +131,15 @@ const Internship = () => {
             content="Join our immersive internship program and become a skilled Cyber Security professional from the convenience of your own home. Acquire the essential skills and knowledge to pursue exciting career opportunities in this critical field. Throughout the program, you'll delve into a wide range of topics, including network security, cryptography, ethical hacking, and risk management."
             domain="/internship-description/cyber-security-intern"
           />
-        </div>
-
-        <div className="application-boxes">
           <ApplicationBox
             imageSrc={cloudImg}
             heading="Cloud Computing"
             content="Master the intricacies of Cloud Computing from the comfort of your own home and unlock boundless career opportunities with our certification program. Enroll in our comprehensive internship, where you'll delve into every facet of Cloud Computing, from foundational concepts to advanced deployment techniques. Develop a robust foundation for your career through hands-on training and real-world application in a supportive and collaborative environment."
             domain="/internship-description/cloud-computing-intern"
           />
+        </div>
+
+        <div className="application-boxes">
           <ApplicationBox
             imageSrc={transferImg}
             heading="Transfer Learning"
@@ -151,19 +171,19 @@ const Internship = () => {
         </div>
         <div className="application-boxes">
           <ApplicationBox
-            imageSrc={marketingImg}
+            imageSrc={webImg}
             heading="Web Content Writer"
             content="Dive into the world of content creation as a Web Content Writer from the comfort of your home and unlock a host of writing career opportunities with our certification program. Join our comprehensive internship, where you'll master the art of crafting engaging and SEO-friendly content for digital platforms. Build a strong foundation for your career through hands-on training and real-world application in a supportive and collaborative environment."
             domain="/internship-description/web-content-writer-intern"
           />
           <ApplicationBox
-            imageSrc={designImg}
+            imageSrc={socialImg}
             heading="Social Media Co-ordinator"
             content="Step into the exciting world of social media as a Social Media Coordinator from the comfort of your home and explore endless career opportunities with our certification program. Join our comprehensive internship, where you'll learn to manage social media platforms, develop strategies, and create engaging content. Build a solid foundation for your career through hands-on training and real-world application in a collaborative environment."
             domain="/internship-description/social-media-coordinator-intern"
           />
           <ApplicationBox
-            imageSrc={hrImg}
+            imageSrc={seoImg}
             heading="SEO Analyst"
             content="Become an expert in search engine optimization (SEO) as an SEO Analyst from the comfort of your home and discover exciting career prospects with our certification program. Join our comprehensive internship, where you'll dive deep into SEO strategies, tools, and best practices to improve website rankings and visibility. Build a solid foundation for your career through hands-on training and real-world application in a supportive environment."
             domain="/internship-description/seo-analyst-intern"

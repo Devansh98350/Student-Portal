@@ -129,7 +129,7 @@ const jobDetails = {
               frontend development, this is the perfect opportunity to kickstart
               your career
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Design, develop, and maintain the company's web applications and
@@ -174,12 +174,32 @@ const jobDetails = {
                 skills
               </li>
             </ul>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>
             <h3 className="dur">Duration:</h3>
             <p>
-              {" "}
               This internship position is typically for a duration of 3 months,
               with the possibility of extension based on performance and mutual
-              interest.
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success.
             </p>
           </div>
           <div className="job-info">
@@ -304,7 +324,7 @@ const jobDetails = {
             <h3 className="dur1">Job Description</h3>
             <p>This is a remote position.</p>
             <h3 style={{ marginTop: "25px" }}>
-              <strong>Job Title:</strong> Full-stack Development Internship
+              <strong>Job Title:</strong> Full-stack Development Intern
             </h3>
             <h3 className="dur">Position Overview:</h3>
             <p style={{ textAlign: "justify" }}>
@@ -317,7 +337,7 @@ const jobDetails = {
               backend technologies, this is the perfect opportunity to kickstart
               your career.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Design, develop, and maintain the company's web applications and
@@ -369,12 +389,33 @@ const jobDetails = {
                 Excellent communication, collaboration, and problem-solving
                 skills.
               </li>
+            </ul>{" "}
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
             </ul>
             <h3 className="dur">Duration:</h3>
             <p>
               This internship position is typically for a duration of 3 months,
               with the possibility of extension based on performance and mutual
-              interest.
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success.
             </p>
           </div>
           <div className="job-info">
@@ -501,7 +542,7 @@ const jobDetails = {
             </h3>
             <p>This is a remote position.</p>
             <h3 style={{ marginTop: "25px" }}>
-              <strong>Job Title:</strong> Python - internship
+              <strong>Job Title:</strong> Python Developer Intern
             </h3>
             <h3 className="dur">Position Overview:</h3>
             <p>
@@ -514,7 +555,7 @@ const jobDetails = {
               passion for Python, this is the perfect opportunity to jumpstart
               your career.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 {" "}
@@ -561,15 +602,34 @@ const jobDetails = {
               <li>Familiarity with version control systems (e.g., Git)</li>
               <li>Excellent problem-solving and analytical skills</li>
               <li> Strong work ethic and a passion for learning</li>
-              <h4 className="dur">Duration:</h4>
-              <p>
-                This internship position is typically for a duration of 3
-                months, with the possibility of extension based on performance
-                and mutual interest. We are eagerly looking forward to having
-                you as a part of our young and dynamic team working towards
-                collaborative success. .
-              </p>
             </ul>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>{" "}
+            <h3 className="dur">Duration:</h3>
+            <p>
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success. .
+            </p>
           </div>
           <div className="job-info">
             <h3>
@@ -703,7 +763,7 @@ const jobDetails = {
               coding and eager to dive into the world of Java, this is the
               perfect chance to start your career.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Design, develop, and maintain enterprise-grade Java
@@ -747,12 +807,33 @@ const jobDetails = {
               <li>Familiarity with unit testing frameworks (e.g., JUnit).</li>
               <li>Excellent problem-solving and analytical skills.</li>
               <li>Strong work ethic and a passion for learning.</li>
+            </ul>{" "}
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
             </ul>
             <h3 className="dur">Duration:</h3>
             <p>
               This internship position is typically for a duration of 3 months,
               with the possibility of extension based on performance and mutual
-              interest.
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success.
             </p>
           </div>
           <div className="job-info">
@@ -887,7 +968,7 @@ const jobDetails = {
               experience with data analysis and model development, and be at the
               forefront of technological innovation.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Assist data scientists in collecting, cleaning, and preparing
@@ -925,8 +1006,27 @@ const jobDetails = {
               </li>
               <li>Excellent problem-solving and analytical skills</li>
               <li>Strong work ethic and a passion for learning</li>
+            </ul>{" "}
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
             </ul>
-            <h4 className="dur">Duration:</h4>
+            <h3 className="dur">Duration:</h3>
             <p>
               This internship position is typically for a duration of 3 months,
               with the possibility of extension based on performance and mutual
@@ -1067,7 +1167,7 @@ const jobDetails = {
               projects. If you have a passion for creating great user
               experiences, we'd love to have you!
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>Design and maintain user-friendly Android applications.</li>
               <li>Collaborate with designers to implement features.</li>
@@ -1092,11 +1192,33 @@ const jobDetails = {
               <li>Proficiency in Java/Kotlin.</li>
               <li>Experience with XML layouts and UI components.</li>
               <li>Excellent problem-solving skills.</li>
+            </ul>{" "}
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
             </ul>
             <h3 className="dur">Duration:</h3>
             <p>
-              The internship typically lasts for 3 months, with a potential
-              extension based on performance and mutual interest.
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success.
             </p>
           </div>
           <div className="job-info">
@@ -1221,7 +1343,7 @@ const jobDetails = {
             <h3 className="dur1">Job Description</h3>
             <p>This is a remote position.</p>
             <h4 style={{ marginTop: "25px" }}>
-              <strong>Job Title:</strong> UI UX Design - Internship
+              <strong>Job Title:</strong> UI UX Design Intern
             </h4>
             <h3 className="dur">Position Overview:</h3>
             <p style={{ textAlign: "justify" }}>
@@ -1232,7 +1354,7 @@ const jobDetails = {
               is a fantastic opportunity to gain exposure to the entire design
               process, from user research to prototyping and testing.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Conduct user research to understand user needs and pain points.
@@ -1282,15 +1404,34 @@ const jobDetails = {
                 A keen eye for detail and a passion for creating visually
                 appealing and user-friendly experiences.
               </li>
-              <h4 className="dur">Duration:</h4>
-              <p>
-                This internship position is typically for a duration of 3
-                months, with the possibility of extension based on performance
-                and mutual interest. We are eagerly looking forward to having
-                you as a part of our young and dynamic team working towards
-                collaborative success.
-              </p>
             </ul>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>{" "}
+            <h4 className="dur">Duration:</h4>
+            <p>
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success.
+            </p>
           </div>
           <div className="job-info">
             <h3>Job Information</h3>
@@ -1298,7 +1439,403 @@ const jobDetails = {
               <strong>Industry:</strong> IT Services
             </p>
             <p>
-              <strong>Work Experience:</strong> 4-5 years
+              <strong>Work Experience:</strong>College Students or Freshers
+            </p>
+            <p>
+              <strong>Remote Job</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    ),
+  },
+
+  "react-native-developer-intern": {
+    title: "React Native Development Internship",
+    keyword: "",
+    description: (
+      <div className="job-listing-container">
+        <div
+          className="job-listing-header1"
+          style={{ backgroundImage: `url(${backgroundImg})` }}
+        >
+          <div className="job-header-content">
+            <h1 style={{ color: "orange", fontWeight: "bold" }}>
+              IIT Academy | Full time
+            </h1>
+            <h2>React Native Development Internship</h2>
+            <p>Remote Job</p>
+
+            <Link to={`/internship-application/react-native-developer-intern`}>
+              <button>I'm interested</button>
+            </Link>
+            <p>Share job via:</p>
+            <div className="share-icons">
+              <a
+                href="https://www.facebook.com/sharer/sharer.php?u=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://twitter.com/intent/tweet?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faXTwitter}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://wa.me/?text=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLink}
+                  rotation={45}
+                  className="linkedin-icon23"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="job-info-description">
+          <div className="job-description">
+            <h3 className="dur1">Job Description</h3>
+            <p>This is a remote position.</p>
+            <h4 style={{ marginTop: "25px" }}>
+              <strong>Job Title:</strong> React Native Intern
+            </h4>
+            <h3 className="dur">Position Overview:</h3>
+            <p style={{ textAlign: "justify" }}>
+              As a React Native Developer Intern, you will play a crucial role
+              in our dynamic tech team, gaining hands-on experience in the
+              exciting world of app development. This internship offers an
+              excellent opportunity to learn and grow in a fast-paced
+              environment. If you're a creative and driven individual with a
+              passion for app development, this is the perfect opportunity to
+              kickstart your career.
+            </p>
+            <h3 className="dur">Responsibilities:</h3>
+            <ul>
+              <li>Design, develop, and maintain the company's applications.</li>
+              <li>
+                Collaborate with cross-functional teams to define, design, and
+                ship new features.
+              </li>
+              <li>
+                Write reusable, testable, and efficient code in React Native,
+                CSS, and JavaScript.
+              </li>
+              <li>Optimize applications for maximum speed and scalability.</li>
+              <li>
+                Stay up-to-date with emerging trends and technologies in
+                front-end development.
+              </li>
+              <li>
+                Develop the latest user-facing features using React Native.
+              </li>
+              <li>
+                Design a modern and highly responsive web-based user interface.
+              </li>
+              <li>Learn and understand user interactions.</li>
+            </ul>
+
+            <h3 className="dur">Qualifications:</h3>
+            <ul>
+              <li>
+                Pursuing Bachelor's degree in Computer Science, or a related
+                field
+              </li>
+              <li>Proficiency in HTML, CSS, JavaScript, and React Native</li>
+              <li>
+                Strong understanding of responsive design and cross-browser
+                compatibility issues
+              </li>
+              <li>
+                Excellent communication, collaboration, and problem-solving
+                skills
+              </li>
+            </ul>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>
+            <h3 className="dur">Duration:</h3>
+            <p>
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success.
+            </p>
+          </div>
+          <div className="job-info">
+            <h3>Job Information</h3>
+            <p>
+              <strong>Industry:</strong> IT Services
+            </p>
+            <p>
+              <strong>Work Experience:</strong> College Students or Freshers
+            </p>
+            <p>
+              <strong>Remote Job</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    ),
+  },
+
+  "backend-development-intern": {
+    title: "Backend Development Internship",
+    keyword: "",
+    description: (
+      <div className="job-listing-container">
+        <div
+          className="job-listing-header1"
+          style={{ backgroundImage: `url(${backgroundImg})` }}
+        >
+          <div className="job-header-content">
+            <h1 style={{ color: "orange", fontWeight: "bold" }}>
+              IIT Academy | Full time
+            </h1>
+            <h2>Backend Development Internship</h2>
+            <p>Remote Job</p>
+
+            <Link to={`/internship-application/backend-development-intern`}>
+              <button>I'm interested</button>
+            </Link>
+            <p>Share job via:</p>
+            <div className="share-icons">
+              <a
+                href="https://www.facebook.com/sharer/sharer.php?u=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://twitter.com/intent/tweet?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faXTwitter}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://wa.me/?text=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://t.me/share/url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="linkedin-icon23"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/sharing/share-offsite/?url?url=YOUR_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLink}
+                  rotation={45}
+                  className="linkedin-icon23"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="job-info-description">
+          <div className="job-description">
+            <h3 className="dur1">Job Description</h3>
+            <p>This is a remote position.</p>
+            <h4 style={{ marginTop: "25px" }}>
+              <strong>Job Title:</strong> Backend Development Intern
+            </h4>
+            <h3 className="dur">Position Overview:</h3>
+            <p style={{ textAlign: "justify" }}>
+              As a Backend Developer Intern, you will play a crucial role in our
+              dynamic tech team, gaining hands-on experience in the exciting
+              world of backend development. This internship offers an excellent
+              opportunity to learn and grow in a fast-paced environment. If
+              you're a creative and driven individual with a passion for backend
+              development, this is the perfect opportunity to kickstart your
+              career.
+            </p>
+            <h3 className="dur">Responsibilities:</h3>
+            <ul>
+              <li>
+                Design, develop, and maintain the company's web applications and
+                websites.
+              </li>
+              <li>
+                Collaborate with cross-functional teams to define, design, and
+                ship new features.
+              </li>
+              <li>
+                Write reusable, testable, and efficient code in MongoDB, NodeJs,
+                and ExpressJs.
+              </li>
+              <li>
+                Optimize web applications for maximum speed and scalability.
+              </li>
+              <li>
+                Stay up-to-date with emerging trends and technologies in backend
+                development.
+              </li>
+              <li>Learning and understanding user interactions.</li>
+            </ul>
+
+            <h3 className="dur">Qualifications:</h3>
+            <ul>
+              <li>
+                Pursuing Bachelor's degree in Computer Science or a related
+                field
+              </li>
+              <li>Proficiency in MongoDB, Node.js, and Express.js</li>
+              <li>Experience with backend frameworks such as Node</li>
+              <li>
+                Strong understanding of responsive design and cross-browser
+                compatibility issues
+              </li>
+              <li>
+                Excellent communication, collaboration, and problem-solving
+                skills
+              </li>
+            </ul>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>
+            <h3 className="dur">Duration:</h3>
+            <p>
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success.
+            </p>
+          </div>
+          <div className="job-info">
+            <h3>Job Information</h3>
+            <p>
+              <strong>Industry:</strong> IT Services
+            </p>
+            <p>
+              <strong>Work Experience:</strong>College Students or Freshers
             </p>
             <p>
               <strong>Remote Job</strong>
@@ -1412,7 +1949,6 @@ const jobDetails = {
             <h3 style={{ marginTop: "25px" }}>
               <strong>Job Title:</strong> Artificial Intelligence Intern
             </h3>
-
             <h3 className="dur">Position Overview:</h3>
             <p style={{ textAlign: "justify" }}>
               Join our cutting-edge AI team as an Artificial Intelligence Intern
@@ -1422,7 +1958,7 @@ const jobDetails = {
               projects. If you're fascinated by AI and have a strong foundation
               in computer science, we encourage you to apply!
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 {" "}
@@ -1473,8 +2009,27 @@ const jobDetails = {
                 A curious mind with a passion for exploring the potential of
                 Artificial Intelligence.
               </li>
+            </ul>{" "}
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
             </ul>
-            <h4 className="dur">Duration:</h4>
+            <h3 className="dur">Duration:</h3>
             <p>
               This internship position is typically for a duration of 3 months,
               with the possibility of extension based on performance and mutual
@@ -1617,7 +2172,7 @@ const jobDetails = {
               data, this is the perfect chance to launch your data science
               career.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Assist with data collection, cleaning, and preparation for
@@ -1662,12 +2217,33 @@ const jobDetails = {
                 Excellent communication, collaboration, and problem-solving
                 skills.
               </li>
+            </ul>{" "}
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
             </ul>
             <h3 className="dur">Duration:</h3>
             <p>
               This internship position is typically for a duration of 3 months,
               with the possibility of extension based on performance and mutual
-              interest.
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success.
             </p>
           </div>
           <div className="job-info">
@@ -1792,7 +2368,7 @@ const jobDetails = {
             </h3>
             <p>This is a remote position.</p>
             <h3 style={{ marginTop: "25px" }}>
-              <strong>Job Title:</strong> C++ Programming - internship
+              <strong>Job Title:</strong> C++ Programming Intern
             </h3>
             <h3 className="dur">Position Overview:</h3>
             <p>
@@ -1807,7 +2383,7 @@ const jobDetails = {
               the perfect chance to solidify your C++ skills and gain industry
               experience.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li> Write clean, efficient, and maintainable C++ code.</li>
               <li>
@@ -1850,15 +2426,34 @@ const jobDetails = {
                 Excellent problem-solving, analytical, and critical thinking
                 skills
               </li>
-              <h4 className="dur">Duration:</h4>
-              <p>
-                This internship position is typically for a duration of 3
-                months, with the possibility of extension based on performance
-                and mutual interest. We are eagerly looking forward to having
-                you as a part of our young and dynamic team working towards
-                collaborative success. .
-              </p>
             </ul>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>{" "}
+            <h3 className="dur">Duration:</h3>
+            <p>
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success. .
+            </p>
           </div>
           <div className="job-info">
             <h3>
@@ -1981,7 +2576,7 @@ const jobDetails = {
             </h3>
             <p>This is a remote position.</p>
             <h3 style={{ marginTop: "25px" }}>
-              <strong>Job Title:</strong> Data Analytics - internship
+              <strong>Job Title:</strong> Data Analytics Intern
             </h3>
             <h3 className="dur">Position Overview:</h3>
             <p>
@@ -1995,7 +2590,7 @@ const jobDetails = {
               extracting insights from data, this is the perfect chance to
               launch your data analytics career
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 {" "}
@@ -2053,15 +2648,34 @@ const jobDetails = {
                 Excellent communication, collaboration, and problem-solving
                 skills.
               </li>
-              <h4 className="dur">Duration:</h4>
-              <p>
-                This internship position is typically for a duration of 3
-                months, with the possibility of extension based on performance
-                and mutual interest. We are eagerly looking forward to having
-                you as a part of our young and dynamic team working towards
-                collaborative success. .
-              </p>
             </ul>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>{" "}
+            <h3 className="dur">Duration:</h3>
+            <p>
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success. .
+            </p>
           </div>
           <div className="job-info">
             <h3>
@@ -2183,7 +2797,7 @@ const jobDetails = {
             <h3 className="dur1">Job Description</h3>
             <p>This is a remote position.</p>
             <h3 style={{ marginTop: "25px" }}>
-              <strong>Job Title:</strong> Cyber Security - internship
+              <strong>Job Title:</strong> Cyber Security Intern
             </h3>
             <h3 className="dur">Position Overview:</h3>
             <p style={{ textAlign: "justify" }}>
@@ -2197,7 +2811,7 @@ const jobDetails = {
               cyber security, this is the perfect chance to launch your career
               in this critical field.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Assist in vulnerability assessments and penetration testing to
@@ -2241,8 +2855,27 @@ const jobDetails = {
                 Meticulous attention to detail and a passion for staying ahead
                 of cyber threats.
               </li>
+            </ul>{" "}
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
             </ul>
-            <h4 className="dur">Duration:</h4>
+            <h3 className="dur">Duration:</h3>
             <p>
               This internship position is typically for a duration of 3 months,
               with the possibility of extension based on performance and mutual
@@ -2384,7 +3017,7 @@ const jobDetails = {
               enjoys innovation, this is the perfect opportunity to jumpstart
               your career in the booming cloud computing industry.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Assist in architecting, deploying, and managing cloud-based
@@ -2431,6 +3064,25 @@ const jobDetails = {
                 Eagerness to learn and adapt to the ever-evolving cloud
                 landscape.
               </li>
+            </ul>{" "}
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
             </ul>
             <h3 className="dur">Duration:</h3>
             <p>
@@ -2575,7 +3227,7 @@ const jobDetails = {
               fascinated by AI, this is the perfect chance to embark on a
               rewarding career path in transfer learning.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Participate in the development and training of AI models using
@@ -2615,6 +3267,25 @@ const jobDetails = {
               <li>
                 Excellent analytical, research, and problem-solving skills.
               </li>
+            </ul>{" "}
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
             </ul>
             <h3 className="dur">Duration:</h3>
             <p>
@@ -2758,7 +3429,7 @@ const jobDetails = {
               marketing, this is the perfect opportunity to kickstart your
               career.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Assist in developing engaging and creative content for various
@@ -2795,8 +3466,27 @@ const jobDetails = {
                 is a plus.
               </li>
               <li>Self-motivated, creative, and a team player.</li>
+            </ul>{" "}
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
             </ul>
-            <h4 className="dur">Duration:</h4>
+            <h3 className="dur">Duration:</h3>
             <p>
               This internship position is typically for a duration of 3 months,
               with the possibility of extension based on performance and mutual
@@ -2927,7 +3617,7 @@ const jobDetails = {
             </h3>
             <p>This is a remote position.</p>
             <h4 style={{ marginTop: "25px" }}>
-              <strong>Job Title:</strong> Graphic Design - internship
+              <strong>Job Title:</strong> Graphic Design Intern
             </h4>
             <h3 className="dur">Position Overview:</h3>
             <p>
@@ -2940,7 +3630,7 @@ const jobDetails = {
               with a knack for visual storytelling, this is the perfect chance
               to launch your design career
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 {" "}
@@ -2993,15 +3683,34 @@ const jobDetails = {
                 A keen eye for detail and a passion for creating high-quality
                 design work.
               </li>
-              <h4 className="dur">Duration:</h4>
-              <p>
-                This internship position is typically for a duration of 3
-                months, with the possibility of extension based on performance
-                and mutual interest. We are eagerly looking forward to having
-                you as a part of our young and dynamic team working towards
-                collaborative success. .
-              </p>
             </ul>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>{" "}
+            <h4 className="dur">Duration:</h4>
+            <p>
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success. .
+            </p>
           </div>
           <div className="job-info">
             <h3>
@@ -3125,7 +3834,7 @@ const jobDetails = {
             </h3>
             <p>This is a remote position.</p>
             <h4 style={{ marginTop: "25px" }}>
-              <strong>Job Title:</strong> Human Resources - internship
+              <strong>Job Title:</strong> Human Resources Intern
             </h4>
             <h3 className="dur">Position Overview:</h3>
             <p>
@@ -3168,15 +3877,34 @@ const jobDetails = {
                 A passion for building relationships and fostering a positive
                 work environment.
               </li>
-              <h4 className="dur">Duration:</h4>
-              <p>
-                This internship position is typically for a duration of 3
-                months, with the possibility of extension based on performance
-                and mutual interest. We are eagerly looking forward to having
-                you as a part of our young and dynamic team working towards
-                collaborative success. .
-              </p>
             </ul>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>{" "}
+            <h3 className="dur">Duration:</h3>
+            <p>
+              This internship position is typically for a duration of 3 months,
+              with the possibility of extension based on performance and mutual
+              interest. We are eagerly looking forward to having you as a part
+              of our young and dynamic team working towards collaborative
+              success. .
+            </p>
           </div>
           <div className="job-info">
             <h3>
@@ -3299,7 +4027,7 @@ const jobDetails = {
             </h3>
             <p>This is a remote position.</p>
             <h4 style={{ marginTop: "25px" }}>
-              <strong>Job Title:</strong> Web Content Writer - internship
+              <strong>Job Title:</strong> Web Content Writer Intern
             </h4>
             <h3 className="dur">Position Overview:</h3>
             <p>
@@ -3309,7 +4037,7 @@ const jobDetails = {
               contribute to the development of high-quality educational content
               for our website.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 {" "}
@@ -3355,8 +4083,26 @@ const jobDetails = {
                 patterns preferred.
               </li>
             </ul>
-
-            <h4 className="dur">Duration:</h4>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>
+            <h3 className="dur">Duration:</h3>
             <p>
               This internship position is typically for a duration of 3 months,
               with the possibility of extension based on performance and mutual
@@ -3488,7 +4234,7 @@ const jobDetails = {
             </h3>
             <p>This is a remote position.</p>
             <h4 style={{ marginTop: "25px" }}>
-              <strong>Job Title:</strong>Social Media Co-ordinator - internship
+              <strong>Job Title:</strong>Social Media Co-ordinator Intern
             </h4>
             <h3 className="dur">Position Overview:</h3>
             <p>
@@ -3501,7 +4247,7 @@ const jobDetails = {
               internship will provide the perfect platform to kickstart your
               career in the dynamic field of digital marketing.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Develop, implement, and manage our social media strategy to
@@ -3589,8 +4335,26 @@ const jobDetails = {
                 collaborative team.
               </li>
             </ul>
-
-            <h4 className="dur">Duration:</h4>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>
+            <h3 className="dur">Duration:</h3>
             <p>
               This internship position is typically for a duration of 3 months,
               with the possibility of extension based on performance and mutual
@@ -3721,7 +4485,7 @@ const jobDetails = {
             </h3>
             <p>This is a remote position.</p>
             <h4 style={{ marginTop: "25px" }}>
-              <strong>Job Title:</strong> SEO Analyst - Internship
+              <strong>Job Title:</strong> SEO Analyst Intern
             </h4>
             <h3 className="dur">Position Overview:</h3>
             <p>
@@ -3734,7 +4498,7 @@ const jobDetails = {
               individual with a passion for SEO, this is the perfect opportunity
               to kickstart your career.
             </p>
-            <h4 className="dur">Responsibilities:</h4>
+            <h3 className="dur">Responsibilities:</h3>
             <ul>
               <li>
                 Conduct keyword research to identify opportunities for website
@@ -3776,14 +4540,32 @@ const jobDetails = {
               </li>
               <li>Self-motivated, analytical, and a team player.</li>
             </ul>
-
-            <h4 className="dur">Duration:</h4>
+            <h3 className="dur">Benefits:</h3>
+            <ul>
+              <li>
+                Opportunity to get exclusive franchise goodies upon successful
+                completion of internship.
+              </li>
+              <li>
+                Receive an official certificate upon successful completion to
+                boost your resume.
+              </li>
+              <li>
+                Students searching for summer internships can join to gain
+                hands-on real-time application and web development experience.
+              </li>
+              <li>
+                Opportunity to contribute creative ideas and make a real impact.
+              </li>
+              <li>Networking opportunities within the industry.</li>
+            </ul>
+            <h3 className="dur">Duration:</h3>
             <p>
               This internship position is typically for a duration of 3 months,
               with the possibility of extension based on performance and mutual
               interest. We are eagerly looking forward to having you as a part
               of our young and dynamic team working towards collaborative
-              success. .
+              success.
             </p>
           </div>
           <div className="job-info">
