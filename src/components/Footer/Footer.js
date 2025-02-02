@@ -91,35 +91,60 @@ const Footer = () => {
             <div className="footer-col">
               <h2 style={{ textAlign: "center" }}>Main Website</h2>
               <p>
-                <Link to="https://www.iitacademy.in/Admission-form">
+                <a
+                  href="https://www.iitacademy.in/Admission-form"
+                  rel="noopener noreferrer"
+                >
                   Apply Online
-                </Link>
+                </a>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/fees-structure">
+                <a
+                  href="https://www.iitacademy.in/fees-structure"
+                  rel="noopener noreferrer"
+                >
                   Fee Structure
-                </Link>
+                </a>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/admission-process">
-                  Admission Process
-                </Link>
+                <a
+                  href="https://www.iitacademy.in/board-batches"
+                  rel="noopener noreferrer"
+                >
+                  Board Batches
+                </a>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/why-us">
-                  Why IIT Academy
-                </Link>
+                <a
+                  href="https://www.iitacademy.in/engineering-batches"
+                  rel="noopener noreferrer"
+                >
+                  Engineering Batches
+                </a>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/our-policy">
-                  Privacy & Policy
-                </Link>
+                <a
+                  href="https://www.iitacademy.in/medical-batches"
+                  rel="noopener noreferrer"
+                >
+                  Medical Batches
+                </a>
               </p>
               <p>
-                <Link to="#">Contact Us</Link>
+                <a
+                  href="https://www.iitacademy.in/foundation-batches"
+                  rel="noopener noreferrer"
+                >
+                  Foundation Batches
+                </a>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/careers">Careers</Link>
+                <a
+                  href="https://www.iitacademy.in/careers"
+                  rel="noopener noreferrer"
+                >
+                  Careers
+                </a>
               </p>
             </div>
             <div className="footer-col">
@@ -137,10 +162,20 @@ const Footer = () => {
                 <Link to="#">Training Programs</Link>
               </p>
               <p>
-                <Link to="#">Resources</Link>
+                <a
+                  href="https://www.resources.iitacademy.in"
+                  rel="noopener noreferrer"
+                >
+                  Resources
+                </a>
               </p>
               <p>
-                <Link to="#">Counseling</Link>
+                <a
+                  href="https://www.counselling.iitacademy.in"
+                  rel="noopener noreferrer"
+                >
+                  Counselling
+                </a>
               </p>
               <p>
                 <Link to="#">Articles</Link>
